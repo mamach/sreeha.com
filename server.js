@@ -4,7 +4,7 @@ const app = express();
 
 
 //serving static files and creating alias
-app.use('/static', express.static('index_files'));
+app.use('/static', express.static('static'));
 
 
 app.get('/', function(req, res) {
